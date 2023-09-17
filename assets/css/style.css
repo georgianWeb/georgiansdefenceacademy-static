@@ -517,6 +517,12 @@ body {
 
 .about { padding-block-start: 0; }
 
+.aboutPage { padding-block-start: 0; }
+
+.justify {
+  text-align: justify;
+}
+
 .about-banner {
   background-color: var(--light-gray);
   max-width: max-content;
@@ -1363,6 +1369,12 @@ body {
 
   .about .container {
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+  }
+
+  .aboutPage .container {
+    /* display: grid; */
     grid-template-columns: 1fr 1fr;
     gap: 60px;
   }

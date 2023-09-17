@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Georgians Defence Academy</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="https://gdadelhi.s3.ap-south-1.amazonaws.com/assets/icons/logo.jpg"
+      type="image/svg+xml"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png" />
+    <link
+      rel="preload"
+      as="image"
+      href="./assets/images/hero-abs-1.png"
+      media="min-width(768px)"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="./assets/images/hero-abs-2.png"
+      media="min-width(768px)"
+    />
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <h1>
+          <a href="#" class="logo">
+            <img
+              src="https://gdadelhi.s3.ap-south-1.amazonaws.com/assets/icons/logo.jpg"
+              alt="logo"
+            />
+          </a>
+        </h1>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <img
+                src="https://gdadelhi.s3.ap-south-1.amazonaws.com/assets/icons/logo.jpg"
+                alt="logo"
+              />
+            </a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="Close menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="index.html" class="navbar-link" data-nav-toggler>Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="aboutUs.html" class="navbar-link" data-nav-toggler
+                >About</a
+              >
+            </li>
+
+            <li class="navbar-item">
+              <a href="#courses" class="navbar-link" data-nav-toggler
+                >Courses</a
+              >
+            </li>
+
+            <li class="navbar-item">
+              <a href="#event" class="navbar-link" data-nav-toggler>Event</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link" data-nav-toggler>Blog</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link" data-nav-toggler>Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <!-- <button
+            class="header-action-btn"
+            aria-label="Open search"
+            data-search-toggler
+          >
+            <ion-icon name="search-outline"></ion-icon>
+          </button> -->
+
+          <a href="#" class="header-action-btn login-btn">
+            <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+            <span class="span">Login / Register</span>
+          </a>
+
+          <button
+            class="header-action-btn nav-open-btn"
+            aria-label="Open menu"
+            data-nav-toggler
+          >
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+        </div>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <!-- 
+    - #SEARCH BOX
+  -->
+
+    <div class="search-container" data-search-box>
+      <div class="container">
+        <button
+          class="search-close-btn"
+          aria-label="Close search"
+          data-search-toggler
+        >
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <div class="search-wrapper">
+          <input
+            type="search"
+            name="search"
+            placeholder="Search Here..."
+            aria-label="Search"
+            class="search-field"
+          />
+
+          <button class="search-submit" aria-label="Submit" data-search-toggler>
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="hero" id="home" aria-label="hero"></section>
+
+        <section class="section aboutPage" id="about" aria-label="about">
+          <div class="container justify">
+            <div>
+              <p>
+                <b>Georgians Defence Academy</b> was established on 1st April
+                2013 with a passion to motivate and guide the candidates in
+                realising their dream of becoming an officer in the Armed
+                Forces. In the last 8 years this institution has proved its
+                credentials by giving best results in NDA/CDS written and SSB.
+                Earlier it was named as Georgians Academy for Professional
+                Studies(GAPS), but WEF 1st April 2023 its name has been changed
+                to Georgians Defence Academy. Today we are considered the best
+                institution for NDA/CDS written and SSB guidance in Delhi/NCR
+                and one of the best institutions in India for Written and SSB
+                preparation.
+              </p>
+              <br />
+              <p>
+                GDA is a dream project of Like-minded people who are alumni of
+                &quot;King George&#39;s Royal Indian Military College&quot;
+                (KGRIMC) presently known as Rastriya Military School, Ex Armed
+                Forces Officers and Educationists. The sole aim of establishing
+                this institution is to provide a platform to the students of
+                Rastriya Military Schools, Sainik Schools, KV and Wards of Ex-
+                army personnel where they can cherish their dream of wearing
+                uniform and serve the country and the elite Defence Forces.
+              </p>
+              <br />
+              <p>
+                Our institute caters for the economically weaker section
+                candidates by charging minimum fees from them and provide
+                quality education and best opportunity to achieve success in
+                written test and SSB. We believe that quality education and
+                proper guidance is the basic right of every youngster. No
+                youngster should be deprived of it just because he/she
+                doesn&#39;t have resources to realise his/her dream.
+              </p>
+              <br />
+              <p>
+                Since April 2013 we have taken small strides towards realising
+                bigger dreams. With three recommendations in 2013, seven in
+                2014, twelve in 2015, eighteen in 2016, twenty-seven in 2017,
+                twenty-seven in 2018, forty-eight in 2019, seventy in 2020,
+                fifty-four in 2021 and sixty- seven in 2022, we have given more
+                than 340 recommendations in SSB for various entries of Army,
+                Navy and Airforce. Georgians Defence Academy feels proud in
+                sharing that it has been able to transform the personality of
+                thousands of students and contribute towards Nation building
+                through these youngsters and budding scholar warriors.
+              </p>
+              <br />
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a href="#" class="logo">Georgians Defence Academy</a>
+
+            <p class="section-text">
+              <!-- The Georgians Defence Academy is a dream project of GAPS. The
+              basic aim of this project is to develop a feeder institution for
+              National Defence Academy, Khadakwasla and its sister academies
+              throughout the country. -->
+            </p>
+
+            <!-- <ul class="social-list">
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-pinterest"></ion-icon>
+                </a>
+              </li>
+            </ul> -->
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Explore</p>
+            </li>
+
+            <li>
+              <a href="aboutUs.html" class="footer-link">
+                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                <span class="span">About Us</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                <span class="span">Upcoming Events</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                <span class="span">Blog & News</span>
+              </a>
+            </li>
+
+            <!-- <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                <span class="span">FAQ Question</span>
+              </a>
+            </li> -->
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                <span class="span">Testimonial</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                <span class="span">Privacy Policy</span>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Useful Links</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                <span class="span">Contact Us</span>
+              </a>
+            </li>
+
+            <!-- <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                <span class="span">Pricing Plan</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                <span class="span">Instructor Profile</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                <span class="span">FAQ</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                <span class="span">Popular Courses</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                <span class="span">Terms & Conditions</span>
+              </a>
+            </li> -->
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Contact Info</p>
+            </li>
+
+            <!-- <li class="footer-item">
+              <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+              <address class="footer-link">
+                275 Quadra Street Victoria Road, New York
+              </address>
+            </li> -->
+
+            <li class="footer-item">
+              <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+              <a href="tel:7065502763" class="footer-link">7065502763</a>
+            </li>
+
+            <li class="footer-item">
+              <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+              <a href="tel:9717752763" class="footer-link">9717752763</a>
+            </li>
+
+            <li class="footer-item">
+              <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+              <a href="tel:9999603028" class="footer-link">9999603028</a>
+            </li>
+
+            <li class="footer-item">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <a
+                href="mailto:georgiandefenceacademydelhi@gmail.com"
+                class="footer-link"
+                >georgiandefenceacademydelhi@gmail.com</a
+              >
+            </li>
+            <li class="footer-item">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <a href="mailto:georgiansacademy@yahoo.in" class="footer-link"
+                >georgiansacademy@yahoo.in</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">
+            Copyright @2023 All Rights Reserved
+            <!-- <a href="#" class="copyright-link">codewithsadee</a> -->
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="Back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="arrow-up"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js" defer></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
